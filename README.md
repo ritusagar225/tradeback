@@ -6,6 +6,12 @@ TradeBack is a product-management-focused MVP designed to help retail traders re
 
 Instead of presenting users with a large trading history or generic analytics, TradeBack converts raw trades into a small number of **evidence-backed, actionable observations**.
 
+## 🚀 Live Demo
+
+**[Open TradeBack →](https://tradeback-z2bc-pp39tibam-ritu-kumaris-projects-abdfe5d5.vercel.app/)**
+
+**[View Source on GitHub →](https://github.com/ritusagar225/tradeback)**
+
 ---
 
 ## Product Overview
@@ -22,7 +28,7 @@ The product:
 
 1. Takes a month of trading history.
 2. Calculates core trading metrics.
-3. Detects repeatable behavioural patterns.
+3. Detects repeatable patterns.
 4. Ranks patterns based on financial impact, frequency, confidence, and actionability.
 5. Surfaces only the top 2–3 patterns.
 6. Shows the exact trades supporting each pattern.
@@ -34,7 +40,7 @@ The product:
 
 **Don't show me all my trades. Tell me what I keep doing.**
 
-The experience is intentionally designed around three questions:
+The experience is designed around three questions:
 
 ### 1. What am I doing repeatedly?
 
@@ -75,7 +81,7 @@ This prevents the product from presenting weak patterns as meaningful conclusion
 
 ### Explainability
 
-Every insight can be traced back to the individual trades that caused it to be surfaced.
+Every insight can be traced back to the individual trades supporting that pattern.
 
 Users can move from:
 
@@ -88,8 +94,6 @@ Rather than displaying every detected pattern, the ranking engine surfaces only 
 ---
 
 ## Example Insights
-
-The sample dataset demonstrates patterns such as:
 
 ### Losing trades stay open longer
 
@@ -105,7 +109,7 @@ Example:
 
 Identifies losing trades where no stop-loss was recorded.
 
-The user can inspect every supporting trade and see the associated loss impact.
+Users can inspect the supporting trades and see the associated loss impact.
 
 ### Position value increases after losses
 
